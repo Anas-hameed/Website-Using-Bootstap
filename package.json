@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-learning",
+  "version": "1.0.0",
+  "description": "This is test directory to learn bootstrap for making responsive website designs",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anas-hameed/Website-Using-Bootstap.git"
+  },
+  "keywords": [
+    "bootstrap4",
+    "website-design",
+    "html5",
+    "javascipt",
+    "Css"
+  ],
+  "author": "Anas Hameed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anas-hameed/Website-Using-Bootstap/issues"
+  },
+  "homepage": "https://github.com/Anas-hameed/Website-Using-Bootstap#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
