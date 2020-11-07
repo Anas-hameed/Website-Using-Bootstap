@@ -7,12 +7,32 @@
     <meta http-equiv="x-ua-compatible">
     <title>Ristorante Con Fusion</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top  ">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <a href="#" class="navbar-brand d-none d-sm-block mr-auto"><img src="/project5/images/logo.png"  alt="" width="30" height="30"></a>
+
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="aboutus.html">About</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <header class="jumbotron">
         <div class="container">
-            <div class="row">
+            <div class="row row-header">
                 <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
@@ -24,7 +44,7 @@
     </header>
 
     <div class="container">
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3 order-last">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
@@ -35,7 +55,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -45,7 +65,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3 order-last">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -57,12 +77,12 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2 ">
                     <h5>Links</h5>
-                    <ul>
+                    <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
@@ -80,8 +100,8 @@
 		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
-                <div class="col-12 col-sm-4">
-                    <div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
                         <a href="http://google.com/+">Google+</a>
                         <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
                         <a href="http://www.linkedin.com/in/">LinkedIn</a>
@@ -91,7 +111,7 @@
                     </div>
                 </div>
            </div>
-           <div class="row">             
+           <div class="row justify-content-center">             
                 <div class="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
